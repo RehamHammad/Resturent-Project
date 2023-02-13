@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body{
+    position: absolute;
+} */
+#home{
+    background-image: url(../images/shutterstock_277750193.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar-toggler-icon{
+    background-image: unset;
+   
+}
+.navbar-toggler:focus{
+    border: unset;
+    outline: unset;
+    box-shadow: 0 0 0 0;
+}
+.nav-item{
+    font-size: 23px;
+    padding:5px !important;
+}
+.nav-link
+{
+    color:  #686868  !important;
+    font-family: 'Alegreya Sans', sans-serif;
+    transition: all 0.5s;
+}
+.active{
+    
+    color: #111111 !important;
+}
+.nav-link:hover{
+    color: #111111 !important;
+}
+.btn-learn{
+    background-color:  #ae9768 !important;
+}
+.home-caption h1{
+    font-family: 'Alegreya', serif;
+    font-size:70px !important;
+}
+.home-caption p{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.circle-icon li{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    line-height: 52px;
+    font-size: 24px !important;
+    background-color: #ae9768;
+    text-align: center;
+    position: absolute;
+    vertical-align: middle;
+    font-size: 25px !important;
+   
+}
+.circle-icon span{
+    position: absolute;
+   
+}
+.font-danc{
+    font-family: 'Alegreya Sans', sans-serif ;
+    color: #ae9768;
+    font-size: 25px;
+}
+
+/* section3 */
+#menu{
+        background-color: #f8f8f8;
+}
+.menu-info h2{
+    font-family:'Alegreya' ;
+    font-weight: 500;
+    font-size: 40px !important;
+}
+.menu-info .dance-font{
+    font-family: 'Dancing Script', cursive;
+    color:  #ae9768 !important;
+    font-size: 25px;
+}
+.menu-info .paragragh{
+    line-height: 2;
+}
+.icons-menu{
+    color:#ae9768 ;
+}
+
+/* end section3 */
+/* section4 */
+#image{
+    background-image: url(../images/shutterstock_280369721.jpg);
+    background-size: cover;
+    background-position: center;
+   background-attachment: fixed;
+}
+.layer{
+    background-color: rgba(0, 0, 0,.3);
+}
+
+/* endsection4 */
+/* section 5 */
+#gallery{
+    background-color: #f8f8f8;
+}
+.gallery-info h4{
+    font-family:'Alegreya' ;
+    font-weight: 400;
+}
+.gallery-info p{
+    line-height: 1.6;
+}
+.btn-gallery button{
+    background-color:  #c1ab84;
+}
+
+/* end section5*/
+/* section6 */
+#blog{
+    background-image: url(../images/shutterstock_277750193.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.carousel-indicators button
+{
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50%;
+}
+.carousel-indicators{
+    bottom: -20%;
+}
+.text-carousel .paragraph{
+    font-size: 25px !important;
+}
+
+/* section7 */
+.contact-text{
+    font-family:'Alegreya' ;
+    font-weight: 400;
+    
+}
+.contact-text .paragraph{
+    line-height: 2;
+    font-size: 20px !important;
+}
+.contact-text .details{
+    font-size: 20px !important;
+}
+.contact-text h2{
+    font-family: 'Dancing Script', cursive;
+    color:  #ae9768 !important;
+    font-size: 30px;
+}
+
+/* section8 */
+#footer{
+    background-color: #403d38;
+}
+.footer-about h4,.links-footer h4,.hours h4,.contact-footer h4{
+    font-family:'Alegreya' ;
+}
+
+/*section9*/
+#footer-bottom{
+    background-color: #353330;
+}
